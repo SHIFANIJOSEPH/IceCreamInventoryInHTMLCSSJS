@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    font-display: bold;
+    margin: 0;
+    padding: 20px;
+    background-color:white;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border:2px solid black;
+    
+}
+div{
+    margin-left: 40%;
+    
+}
+button {
+    cursor: pointer;
+    background-color: bisque;
+}
+
+h1, h2 {
+    color: #333;
+
+}
+h1{
+    margin-left:40%;
+}
+.inventorList{
+    margin-left:40%;
+}
+.image{
+    margin-left:40%;
+}

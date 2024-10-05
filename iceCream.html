@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Inventory</title>
+    <link rel="stylesheet" href="icecream.css">
+</head>
+<body>
+    <h1>Ice Cream Shop Inventory</h1>
+
+    <div>
+        <label for="flavor">Flavor:</label>
+        <input type="text" id="flavor" placeholder="Enter ice cream flavor"><br>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" placeholder="Enter price"><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" placeholder="Enter quantity"><br>
+
+        <label for="image">Image URL:</label>
+        <input type="text" id="image" placeholder="Enter image URL"><br>
+
+        <button onclick="addIceCream()">Add Ice Cream</button>
+        <button onclick="updateIceCream()">Update Ice Cream</button>
+    </div>
+
+    <h2>Inventory</h2>
+    <ul id="inventoryList"></ul>
+
+    <h2>Total Value: $<span id="totalValue">0.00</span></h2>
+    
+    <!-- New Section to show total available stock -->
+    <h2>Available Stock: <span id="availableStock">0</span> units</h2>
+
+    <script src="iceCream.js"></script>
+</body>
+</html>
